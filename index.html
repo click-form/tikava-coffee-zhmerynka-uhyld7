@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кав’ярня TIKAVA у Жмеринці</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">TIKAVA</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="lang-switcher">
+                    <button data-lang="uk" class="lang-btn active">UA</button>
+                    <button data-lang="ru" class="lang-btn">RU</button>
+                    <button data-lang="en" class="lang-btn">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">Кав’ярня TIKAVA у Жмеринці</h1>
+                <p data-i18n="hero_subtitle">Затишне місце у самому серці Жмеринки, де кожен гість може насолодитися ароматною кавою, авторськими напоями та смачними десертами.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Переглянути меню</a>
+                    <a href="contacts.html" class="btn btn-secondary" data-i18n="btn_contacts">Як нас знайти</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section-padding">
+            <div class="container">
+                <h2 class="section-title" data-i18n="features_title">Чому обирають TIKAVA</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3 data-i18n="feat_1_title">Авторська кава</h3>
+                        <p data-i18n="feat_1_desc">Професійні бариста готують класичні та ексклюзивні кавові напої з любов'ю до кожної деталі.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 data-i18n="feat_2_title">Особлива атмосфера</h3>
+                        <p data-i18n="feat_2_desc">Ідеальний простір для дружніх зустрічей, ранкових ритуалів та приємного відпочинку.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍰</div>
+                        <h3 data-i18n="feat_3_title">Смачні десерти</h3>
+                        <p data-i18n="feat_3_desc">Свіжі смаколики та десерти до вашої улюбленої кави щодня.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner section-padding">
+            <div class="container cta-container">
+                <h2 data-i18n="cta_title">Завітайте до нас на чашку кави</h2>
+                <p data-i18n="cta_desc">вул. Героїв Крут, 1А, Жмеринка • Пн-Нд: 08:00 - 20:00</p>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="cta_btn">Зв'язатися з нами</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>TIKAVA</h3>
+                <p data-i18n="footer_desc">Кав’ярня у Жмеринці</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Нд: 08:00 - 20:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Героїв Крут, 1А, Жмеринка</p>
+                <p>Тел: 098 539 68 65</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/tikava_coffee/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TIKAVA. <span data-i18n="rights">Усі права захищено.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
