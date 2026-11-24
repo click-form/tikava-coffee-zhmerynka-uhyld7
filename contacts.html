@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — TIKAVA</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">TIKAVA</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="active" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="lang-switcher">
+                    <button data-lang="uk" class="lang-btn active">UA</button>
+                    <button data-lang="ru" class="lang-btn">RU</button>
+                    <button data-lang="en" class="lang-btn">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="contacts_page_title">Контакти та адреса</h1>
+            </div>
+        </section>
+
+        <section class="contacts-section section-padding">
+            <div class="container contacts-grid">
+                <div class="contact-info-card">
+                    <h3 data-i18n="contact_info_title">Наші координати</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <strong data-i18n="lbl_address">Адреса:</strong>
+                            <span>вул. Героїв Крут, 1А, Жмеринка, Вінницька область, Україна, 23100</span>
+                        </li>
+                        <li>
+                            <strong data-i18n="lbl_phone">Телефон:</strong>
+                            <a href="tel:0985396865">098 539 68 65</a>
+                        </li>
+                        <li>
+                            <strong data-i18n="lbl_hours">Графік роботи:</strong>
+                            <span data-i18n="hours_val">Пн-Нд: 08:00 - 20:00</span>
+                        </li>
+                        <li>
+                            <strong data-i18n="lbl_social">Соцмережі:</strong>
+                            <a href="https://www.instagram.com/tikava_coffee/" target="_blank" rel="noopener">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>TIKAVA</h3>
+                <p data-i18n="footer_desc">Кав’ярня у Жмеринці</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Нд: 08:00 - 20:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Героїв Крут, 1А, Жмеринка</p>
+                <p>Тел: 098 539 68 65</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/tikava_coffee/" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TIKAVA. <span data-i18n="rights">Усі права захищено.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
